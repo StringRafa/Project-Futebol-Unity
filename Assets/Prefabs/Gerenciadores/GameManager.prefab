@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7684524032535479548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7684524032535479550}
+  - component: {fileID: 7684524032535479551}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7684524032535479550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684524032535479548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.74, y: 2.42, z: -829.8203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7684524032535479551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684524032535479548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c429deba9934e424a9f894db0a198f2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bola:
+  - {fileID: 8228306456841893847, guid: 342c3283d6d71394e991524bcc6ac283, type: 3}
+  - {fileID: 9022431423969825735, guid: 6cc75bef05b18e840a7c0bdab7dfabda, type: 3}
+  - {fileID: 2289217250211431446, guid: 3483122b5f36b0e43a687c92a1bfe5b6, type: 3}
+  - {fileID: 2297848366800542100, guid: 57dd1978480f35245bcbdddbc6a790c7, type: 3}
+  - {fileID: 8930527014746058760, guid: a070189fc4f9b7247b7476e589463ac2, type: 3}
+  - {fileID: 2653643239717124980, guid: 0fd07c7ad1d446747a66276907f37245, type: 3}
+  - {fileID: 4300209412861403716, guid: 8ba1bcab430d2e84bb4e86f97713d75e, type: 3}
+  - {fileID: 7517061772643405543, guid: 5163cbc003959914d8ca5a73c45bab44, type: 3}
+  - {fileID: 5007461156987436731, guid: e4f4819fecea11b4398f6221645f692b, type: 3}
+  - {fileID: 1494393282708363306, guid: e6866af1b2d9f8d44a0997896dadde31, type: 3}
+  - {fileID: 5566893641557055397, guid: d551743c5ef2f0242a9bd4f26f726d85, type: 3}
+  - {fileID: 5691722381817362304, guid: 51d712ad518f1594daebe942dabdfc94, type: 3}
+  - {fileID: 6576466997974857727, guid: 6d03733b058949a4e9c09ea22c7bf1a8, type: 3}
+  - {fileID: 8008570927280098886, guid: 3278b2d308160a0479dc64358c1d162f, type: 3}
+  - {fileID: 1980423131296454404, guid: c70f5bea13dc53345b03752416bca59a, type: 3}
+  bolasNum: 2
+  bolasEmCena: 0
+  pos: {fileID: 0}
+  win: 0
+  tiro: 0
+  jogoComecou: 0
